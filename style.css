@@ -27,6 +27,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: MediumSeaGreen;
+}
+
 .outputContainer {
   margin: 50px auto;
 }
