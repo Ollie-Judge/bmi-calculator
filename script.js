@@ -16,10 +16,13 @@ function calculateBMI() {
   else if (weight === "" || isNaN(weight))
     result.innerHTML = "Provide a valid Weight!";
   else {
-    console.log(Math.pow(height, 2));
+    let a = height * weight;
+    result.innerHTML = `${a}`;
+
+    /*console.log(Math.pow(height, 2));
 
     let BMI = weight / Math.pow(height, 2);
     console.log(BMI);
-    result.innerHTML = `${BMI}`;
+    result.innerHTML = `${BMI}`;*/
   }
 }
