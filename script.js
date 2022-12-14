@@ -17,7 +17,8 @@ function calculateBMI() {
     result.innerHTML = "Provide a valid Weight!";
   else {
     let BMI = weight / Math.pow(height, 2);
-    console.log(BMI);
-    result.innerHTML = `${BMI}`;
+
+    let bmiRounded = BMI.toFixed(2);
+    result.innerHTML = `${bmiRounded}`;
   }
 }
