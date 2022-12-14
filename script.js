@@ -21,5 +21,12 @@ function calculateBMI() {
     let BMI = weight / Math.pow(height, 2);
     console.log(BMI);
     result.innerHTML = `${BMI}`;
+
+    let a = 1.8;
+    let b = 65;
+
+    let bmiTest = 65 / Math.pow(1.8, 2);
+
+    console.log(bmiTest);
   }
 }
