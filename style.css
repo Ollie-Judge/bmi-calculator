@@ -21,10 +21,12 @@ div {
 
 .inputs {
   margin: 7.5px auto;
+  border-radius: 20px;
+  padding: 12px;
 }
 
 button {
-  padding: 25px 35px;
+  padding: 22px 35px;
   background-color: lightgreen;
   border: none;
   border-radius: 25px;
