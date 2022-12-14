@@ -14,6 +14,18 @@ div {
   margin: 50px auto;
 }
 
+.inputs {
+  margin: 7.5px auto;
+}
+
+button {
+  padding: 25px 35px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
 .outputContainer {
   margin: 50px auto;
 }
