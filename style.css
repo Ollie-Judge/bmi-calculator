@@ -1,0 +1,19 @@
+* {
+  text-align: center;
+}
+
+.bmiCalcDiv {
+  margin: 150px auto;
+}
+
+div {
+  margin: auto;
+}
+
+.submitbuttonContainer {
+  margin: 50px auto;
+}
+
+.outputContainer {
+  margin: 50px auto;
+}
