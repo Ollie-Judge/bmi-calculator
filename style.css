@@ -7,8 +7,12 @@ body {
   background-color: oldlace;
 }
 
+.titleContainer {
+  margin: 75px auto 0;
+}
+
 .bmiCalcDiv {
-  margin: 150px auto;
+  margin: 125px auto;
 }
 
 div {
