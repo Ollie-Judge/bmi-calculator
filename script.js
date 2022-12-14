@@ -1,11 +1,25 @@
-const getUserInput = () => {
-  let weight = parseInt(document.getElementById("weightInput").value);
+window.onload = () => {
+  let button = document.getElementById("submitButton");
+
+  button.addEventListener("click", calculateBMI);
+};
+
+function calculateBMI() {
   let height = parseInt(document.getElementById("heightInput").value);
 
-  console.log(Math.pow(height, 2));
+  let weight = parseInt(document.getElementById("weightInput").value);
 
-  let BMI = weight / Math.pow(height, 2);
-  console.log(BMI);
+  let result = document.getElementById("bmiOutput");
 
-  document.getElementById("bmiOutput").innerHTML = `${BMI}`;
-};
+  if (height === "" || isNaN(height))
+    result.innerHTML = "Provide a valid Height!";
+  else if (weight === "" || isNaN(weight))
+    result.innerHTML = "Provide a valid Weight!";
+  else {
+    console.log(Math.pow(height, 2));
+
+    let BMI = weight / Math.pow(height, 2);
+    console.log(BMI);
+    result.innerHTML = `${BMI}`;
+  }
+}
