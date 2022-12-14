@@ -44,3 +44,16 @@ button:hover {
 .outputContainer {
   margin: 50px auto;
 }
+
+.infoHint {
+  margin: 40px auto;
+}
+
+.imgContainer {
+  margin: 75px auto;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
